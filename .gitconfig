@@ -1,0 +1,6 @@
+[user]
+	email = jacques.troussard@gmail.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
