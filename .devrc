@@ -1,0 +1,10 @@
+# TODO
+# increase to max watchers
+# echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+# 1785  Nov 25 15:42:59 cat /et/sysctl.config
+# 1786  Nov 25 15:43:03 cat /etc/sysctl.config
+# 1787  Nov 25 15:43:12 sudo sysctl -p
+#
+
+# Git configurations
+ PS1='\[\e[0;1;38;5;46m\]\u\[\e[0;1;38;5;46m\]@\[\e[0;1;38;5;46m\]\h\[\e[0m\]:\[\e[0;38;5;51m\]\w \[\e[0;38;5;207m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)\[\e[0m\]$ \[\e[0m\]' 
