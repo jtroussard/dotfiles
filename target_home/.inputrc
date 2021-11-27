@@ -1,0 +1,4 @@
+# This seems to only turn off some of the terminal bells.
+# Needs to be manually set in the terminal perferences
+# to remove all bells. Still get some with errors on exit.
+set bell-style none
